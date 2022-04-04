@@ -1,6 +1,6 @@
 <!-- Logo -->
 <h1 align="center">
-  <img src="https://github.com/willtheorangeguy/Snoopy-Landing-Page/blob/main/docs/images/logo.png" height="250px" width="400px" alt="Snoopy Landing Page">
+  <img src="https://raw.githubusercontent.com/willtheorangeguy/Snoopy-Landing-Page/master/docs/images/logo.png" height="250px" width="400px" alt="Snoopy Landing Page">
   <br>
   PyWorkout
   <br>
