@@ -39,7 +39,7 @@
 </p>
 
 <!-- Screenshot(s) -->
-![screenshot](https://github.com/willtheorangeguy/Snoopy-Landing-Page/blob/main/docs/images/landing.png)
+![screenshot](https://raw.githubusercontent.com/willtheorangeguy/Snoopy-Landing-Page/master/docs/images/landing.png)
 
 ## Key Features
 
