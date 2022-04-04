@@ -101,10 +101,10 @@ This software uses the following open source packages, projects, services or web
 <!-- Credits Table -->
 <table>
   <tr>
-    <th align="center"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="150" height="150" alt="GitHub"/></th>
-    <th align="center"><img src="https://pbs.twimg.com/profile_images/1069553420854591489/stZUQMcC_400x400.jpg" width="250" height="150" alt="W3C"/></th>
+    <th align="center"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="200" height="200" alt="GitHub"/></th>
+    <th align="center"><img src="https://pbs.twimg.com/profile_images/1069553420854591489/stZUQMcC_400x400.jpg" width="200" height="200" alt="W3C"/></th>
     <th align="center"><img src="https://videos.w3schools.com/files/images/w3schools_logo_500_04AA6D.png" width="250" height="150" alt="W3Schools"/></th>
-    <th align="center"><img src="https://schulzmuseum.org/wp-content/uploads/2019/06/SchulzMuseum.jpg" width="250" height="150" alt="Peanuts"/></th>
+    <th align="center"><img src="https://schulzmuseum.org/wp-content/uploads/2019/06/SchulzMuseum.jpg" width="200" height="200" alt="Peanuts"/></th>
   </tr>
   <tr>
     <td align="center">GitHub</td>
