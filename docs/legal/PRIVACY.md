@@ -1,6 +1,6 @@
 # Privacy Policy
 
-Last updated: March 01, 2022.
+Last updated: August 29, 2022.
 
 This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.
 
@@ -18,9 +18,9 @@ For the purposes of this Privacy Policy:
 
 - **Account** means a unique account created for You to access our Service or parts of our Service.
 - **Affiliate** means an entity that controls, is controlled by or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.
-- **Application** means the software program provided by the Company downloaded by You on any electronic device, named Snoopy Landing Page.
+- **Application** means the software program provided by the Company downloaded by You on any electronic device, named the Snoopy Landing Page.
 - **Company** (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to @willtheorangeguy.
-- **Country** refers to: British Columbia,  Canada
+- **Country** refers to: British Columbia, Canada.
 - **Device** means any device that can access the Service such as a computer, a cellphone or a digital tablet.
 - **Personal Data** is any information that relates to an identified or identifiable individual.
 - **Service** refers to the Application.
@@ -34,22 +34,7 @@ For the purposes of this Privacy Policy:
 
 ### Personal Data
 
-While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to:
-
-- Usage Data
-- Workout Data
-
-### Usage Data
-
-Usage Data is collected automatically and anonymously when using the Service.
-
-Usage Data may include information such as Your Device's operating system, Python version, local time and timezone. If the `video` function is used, it also includes video files in the folders you direct the program to.
-
-### Workout Data
-
-Usage Data is collected automatically and anonymously when using the Service.
-
-Workout Data may include information such as time to complete workout, workout type, number of sets and number of reps.
+While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You.
 
 ## Use of Your Personal Data
 
@@ -61,7 +46,7 @@ The Company may use Personal Data for the following purposes:
 
 The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.
 
-**Personal data is only recorded locally on the computer, and never sent to servers.**
+**Personal data is only recorded locally on the computer, and never sent to our servers.**
 
 ## Disclosure of Your Personal Data
 
@@ -111,4 +96,4 @@ You are advised to review this Privacy Policy periodically for any changes. Chan
 
 If you have any questions about this Privacy Policy, You can contact us:
 
-- By visiting this page on our website: [github.com/willtheorangeguy/Snoopy-Landing-Page](github.com/willtheorangeguy/Snoopy-Landing-Page).
+- Via our Discord: [https://discord.gg/TXR962YrGV](https://discord.gg/TXR962YrGV).
