@@ -43,7 +43,7 @@ Please contribute using [GitHub Flow](https://guides.github.com/introduction/flo
 
 ### Do you have questions about the source code?
 
-- Ask any question about how to use PyWorkout on our [Discord](https://discord.gg/TXR962YrGV).
+- Ask any question about how to use the Snoopy Landing Page on our [Discord](https://discord.gg/TXR962YrGV).
 - If it does not get answered, open an [issue](https://github.com/willtheorangeguy/Snoopy-Landing-Page/issues/new).  
 
 ## Coding Conventions
