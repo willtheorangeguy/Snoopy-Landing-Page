@@ -10,10 +10,11 @@ Please remember that if you choose to use this landing page in your project, you
 
 The following versions of Snoopy Landing Page are currently supported:
 
-| Version | Supported          |
-| ------- | ------------------ |
-| `1.2`   | :white_check_mark: |
-| `1.1`   | :x:                |
+| Version  | Supported          |
+| -------- | ------------------ |
+| `>1.3.x` | :white_check_mark: |
+| `1.2`    | :white_check_mark: |
+| `1.1`    | :x:                |
 
 ## Reporting a Vulnerability
 
