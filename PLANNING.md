@@ -1,5 +1,3 @@
 # Planning
 
-## Version 2.0.0
-
-- Nothing yet...
+**More planning ideas can be found on the [Issues page](https://github.com/willtheorangeguy/Snoopy-Landing-Page/issues) or the [Projects page](https://github.com/willtheorangeguy/Snoopy-Landing-Page/projects?type=classic).**
