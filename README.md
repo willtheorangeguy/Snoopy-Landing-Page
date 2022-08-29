@@ -13,6 +13,8 @@
 <div align="center">
   <!-- Stability -->
   <img alt="GitHub Actions State" src="https://github.com/willtheorangeguy/Snoopy-Landing-Page/actions/workflows/pages/pages-build-deployment/badge.svg">
+  <!-- Gitleaks -->
+  <img alt="Gitleaks State" src="https://github.com/willtheorangeguy/Snoopy-Landing-Page/actions/workflows/gitleaks.yml/badge.svg">
   <!-- Version -->
   <img alt="GitHub Version" src="https://img.shields.io/github/v/release/willtheorangeguy/Snoopy-Landing-Page">
   <!-- Issues -->
@@ -73,7 +75,7 @@ $ index.html
 However, **if you want to edit the page and make it your own**, follow the steps below:
 
 1. Copy both the `index.html` and `snoopy.jpg` files to the root of your website server.
-2. Edit the `index.html` file using a [text editor](https://code.visualstudio.com/#alt-downloads) in the following three places:
+2. Edit the `index.html` file using a [text editor](https://code.visualstudio.com/) in the following three places:
     * _Line 16, Column 51_: Where it says `%insert_time_here%`, replace the placeholder with the time you expect your website to be done. I suggest an approximate date like "the end of the year" or "in the spring".
     * _Line 16, Column 135_: Where it says `%link_to_GitHub_profile_here%`, replace the placeholder with a link to your GitHub page.
     * _Line 16, Column 230_: Where is says `%your_email%`, replace the placeholder with your email address. Make sure to leave the `mailto:` in front of the address, so it opens in the visitor's email client.
@@ -82,7 +84,7 @@ However, **if you want to edit the page and make it your own**, follow the steps
 
 ## Support
 
-Further customization options for colors, images and text can be found in [`CUSTOMIZATION.md`](https://github.com/willtheorangeguy/Snoopy-Landing-Page/tree/main/docs). More documentation is available in the **[Documentation](https://github.com/willtheorangeguy/Snoopy-Landing-Page/tree/main/docs)** and on the **[Wiki](https://github.com/willtheorangeguy/Snoopy-Landing-Page/wiki)**. If more support is required, please open a **[GitHub Discussion](https://github.com/willtheorangeguy/Snoopy-Landing-Page/discussions/new)** or join our **[Discord](https://discord.gg/TXR962YrGV)**.
+Further customization options for colors, images and text can be found in [`CUSTOMIZATION`](https://github.com/willtheorangeguy/Snoopy-Landing-Page/blob/master/docs/CUSTOMIZATION.md). More documentation is available in the **[Documentation](https://github.com/willtheorangeguy/Snoopy-Landing-Page/tree/main/docs)** and on the **[Wiki](https://github.com/willtheorangeguy/Snoopy-Landing-Page/wiki)**. If more support is required, please open a **[GitHub Discussion](https://github.com/willtheorangeguy/Snoopy-Landing-Page/discussions/new)** or join our **[Discord](https://discord.gg/TXR962YrGV)**.
 
 ## Contributing
 
@@ -101,10 +103,10 @@ This software uses the following open source packages, projects, services or web
 <!-- Credits Table -->
 <table>
   <tr>
-    <th align="center"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="200" height="200" alt="GitHub"/></th>
-    <th align="center"><img src="https://pbs.twimg.com/profile_images/1069553420854591489/stZUQMcC_400x400.jpg" width="200" height="200" alt="W3C"/></th>
-    <th align="center"><img src="https://videos.w3schools.com/files/images/w3schools_logo_500_04AA6D.png" width="250" height="150" alt="W3Schools"/></th>
-    <th align="center"><img src="https://schulzmuseum.org/wp-content/uploads/2019/06/SchulzMuseum.jpg" width="200" height="200" alt="Peanuts"/></th>
+    <th align="center"><img src="https://applets.imgix.net/https%3A%2F%2Fassets.ifttt.com%2Fimages%2Fchannels%2F2107379463%2Ficons%2Fmonochrome_large.png?w=240&h=240&s=8a19bbc158996d098e2fb18310ba7f33" width="150" height="150" alt="GitHub"/></th>
+    <th align="center"><img src="https://pbs.twimg.com/profile_images/1069553420854591489/stZUQMcC_400x400.jpg" width="150" height="150" alt="W3C"/></th>
+    <th align="center"><img src="https://videos.w3schools.com/files/images/w3schools_logo_500_04AA6D.png" width="150" height="150" alt="W3Schools"/></th>
+    <th align="center"><img src="https://schulzmuseum.org/wp-content/uploads/2019/06/SchulzMuseum.jpg" width="150" height="150" alt="Nginx"/></th>
   </tr>
   <tr>
     <td align="center">GitHub</td>
