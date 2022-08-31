@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  img1:
+    build:
+      context: .
+      target: snoopy-landing-page-apache
+  img2:
+    build:
+      context: .
+      target: snoopy-landing-page-nginx
