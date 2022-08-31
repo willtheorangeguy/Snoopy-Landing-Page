@@ -1,5 +1,15 @@
 # Changelog
 
+## [v1.4.0](https://github.com/willtheorangeguy/Snoopy-Landing-Page/releases/tag/v1.4.0)
+
+### Added
+
+- Docker image and container
+
+### Changed
+
+- Updated `README.md`
+
 ## [v1.3.0](https://github.com/willtheorangeguy/Snoopy-Landing-Page/releases/tag/v1.3.0)
 
 ### Added
