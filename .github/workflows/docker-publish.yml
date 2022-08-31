@@ -1,4 +1,4 @@
-name: docker-build
+name: docker-publish
 
 on:
   schedule:
