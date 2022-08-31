@@ -1,7 +1,4 @@
 # syntax=docker/dockerfile:1
 
-FROM apache as img1
-COPY . /usr/share/nginx/html
-
-FROM nginx as img2
+FROM nginx
 COPY . /usr/share/nginx/html
