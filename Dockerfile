@@ -2,4 +2,4 @@
 
 FROM nginx
 COPY . /usr/share/nginx/html
-LABEL org.opencontainers.image.description "A simple under construction landing page that features Charles M. Schulz's iconic Snoopy Beagle."
+LABEL org.opencontainers.image.description A simple under construction landing page.
