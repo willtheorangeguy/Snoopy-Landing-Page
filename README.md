@@ -12,7 +12,9 @@
 <!-- Badges -->
 <div align="center">
   <!-- Stability -->
-  <img alt="GitHub Actions State" src="https://github.com/willtheorangeguy/Snoopy-Landing-Page/actions/workflows/pages/pages-build-deployment/badge.svg">
+  <img alt="Docker Build State" src="https://github.com/willtheorangeguy/Snoopy-Landing-Page/actions/workflows/docker-publish.yml/badge.svg">
+  <!-- Stability -->
+  <img alt="GitHub Pages State" src="https://github.com/willtheorangeguy/Snoopy-Landing-Page/actions/workflows/pages/pages-build-deployment/badge.svg">
   <!-- Gitleaks -->
   <img alt="Gitleaks State" src="https://github.com/willtheorangeguy/Snoopy-Landing-Page/actions/workflows/gitleaks.yml/badge.svg">
   <!-- Version -->
@@ -70,6 +72,18 @@ $ cd Snoopy-Landing-Page
 
 # Run the webpage
 $ index.html
+```
+
+You can also pull the [Docker](https://www.docker.com/) image from GitHub Packages. From your command line:
+
+```bash
+# Pull image
+$ docker pull ghcr.io/willtheorangeguy/snoopy-landing-page:master
+
+# Run container
+$ docker run -d -p 80 ghcr.io/willtheorangeguy/snoopy-landing-page:master
+
+# Now, navigate to localhost in your browser to see the webpage
 ```
 
 However, **if you want to edit the page and make it your own**, follow the steps below:
