@@ -118,7 +118,7 @@ This software uses the following open source packages, projects, services or web
 <table>
   <tr>
     <th align="center"><img src="https://applets.imgix.net/https%3A%2F%2Fassets.ifttt.com%2Fimages%2Fchannels%2F2107379463%2Ficons%2Fmonochrome_large.png?w=240&h=240&s=8a19bbc158996d098e2fb18310ba7f33" width="150" height="150" alt="GitHub"/></th>
-    <th align="center"><img src="https://pbs.twimg.com/profile_images/1069553420854591489/stZUQMcC_400x400.jpg" width="150" height="150" alt="W3C"/></th>
+    <th align="center"><img src="https://www.w3.org/assets/logos/w3c/w3c-no-bars.svg" width="150" height="150" alt="W3C"/></th>
     <th align="center"><img src="https://videos.w3schools.com/files/images/w3schools_logo_500_04AA6D.png" width="150" height="150" alt="W3Schools"/></th>
     <th align="center"><img src="https://schulzmuseum.org/wp-content/uploads/2019/06/SchulzMuseum.jpg" width="150" height="150" alt="Nginx"/></th>
   </tr>
