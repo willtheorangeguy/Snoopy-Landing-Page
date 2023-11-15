@@ -44,7 +44,7 @@ Please contribute using [GitHub Flow](https://guides.github.com/introduction/flo
 ### Do you have questions about the source code?
 
 - Ask any question about how to use the Snoopy Landing Page on our [Discord](https://discord.gg/TXR962YrGV).
-- If it does not get answered, open an [issue](https://github.com/willtheorangeguy/Snoopy-Landing-Page/issues/new).  
+- If it does not get answered, open an [issue](https://github.com/willtheorangeguy/Snoopy-Landing-Page/issues/new).
 
 ## Coding Conventions
 
@@ -56,4 +56,4 @@ Start reading our code and you'll get the hang of it.
 
 ## Attribution
 
-This document is adapted from the Contributing documents of [Rails](https://github.com/rails/rails/blob/main/CONTRIBUTING.md), the [GitHub Docs](https://github.com/github/docs/blob/main/CONTRIBUTING.md), [Atom](https://github.com/atom/atom/blob/master/CONTRIBUTING.md), and [OpenGovernment](https://github.com/opengovernment/opengovernment/blob/master/CONTRIBUTING.md?plain=1).  
+This document is adapted from the Contributing documents of [Rails](https://github.com/rails/rails/blob/main/CONTRIBUTING.md), the [GitHub Docs](https://github.com/github/docs/blob/main/CONTRIBUTING.md), [Atom](https://github.com/atom/atom/blob/master/CONTRIBUTING.md), and [OpenGovernment](https://github.com/opengovernment/opengovernment/blob/master/CONTRIBUTING.md?plain=1).
