@@ -43,15 +43,16 @@
 </p>
 
 <!-- Screenshot(s) -->
+
 ![screenshot](https://raw.githubusercontent.com/willtheorangeguy/Snoopy-Landing-Page/master/docs/images/landing.png)
 
 ## Key Features
 
-* Display a colorful and informative welcome text.
-* Display a large, memorable Snoopy image.
-* Includes links to GitHub profile and email.
-* Includes a projected completion date.
-* Cross platform, browser based.
+- Display a colorful and informative welcome text.
+- Display a large, memorable Snoopy image.
+- Includes links to GitHub profile and email.
+- Includes a projected completion date.
+- Cross platform, browser based.
 
 ## Download
 
@@ -90,9 +91,9 @@ However, **if you want to edit the page and make it your own**, follow the steps
 
 1. Copy both the `index.html` and `snoopy.jpg` files to the root of your website server.
 2. Edit the `index.html` file using a [text editor](https://code.visualstudio.com/) in the following three places:
-    * _Line 16, Column 51_: Where it says `%insert_time_here%`, replace the placeholder with the time you expect your website to be done. I suggest an approximate date like "the end of the year" or "in the spring".
-    * _Line 16, Column 135_: Where it says `%link_to_GitHub_profile_here%`, replace the placeholder with a link to your GitHub page.
-    * _Line 16, Column 230_: Where is says `%your_email%`, replace the placeholder with your email address. Make sure to leave the `mailto:` in front of the address, so it opens in the visitor's email client.
+   - _Line 16, Column 51_: Where it says `%insert_time_here%`, replace the placeholder with the time you expect your website to be done. I suggest an approximate date like "the end of the year" or "in the spring".
+   - _Line 16, Column 135_: Where it says `%link_to_GitHub_profile_here%`, replace the placeholder with a link to your GitHub page.
+   - _Line 16, Column 230_: Where is says `%your_email%`, replace the placeholder with your email address. Make sure to leave the `mailto:` in front of the address, so it opens in the visitor's email client.
 3. Save the file and upload it to the root of your website server.
 4. You're all set!
 
@@ -138,13 +139,13 @@ This software uses the following open source packages, projects, services or web
 
 ## Contributors
 
-* [@willtheorangeguy](https://github.com/willtheorangeguy) - Sponsor on [PayPal](https://paypal.me/wvdg44?country.x=CA&locale.x=en_US)
+- [@willtheorangeguy](https://github.com/willtheorangeguy) - Sponsor on [PayPal](https://paypal.me/wvdg44?country.x=CA&locale.x=en_US)
 
 ## You may also like...
 
-* [Running Calculator](https://github.com/willtheorangeguy/Running-Calculator) - A running speed calculator for any unit of distance.
-* [PyWorkout](https://github.com/willtheorangeguy/PyWorkout) - A minimal CLI to keep you inspired during your workout! Easily used and customized, with support for multiple workout plans, different muscle groups and video workouts.
-* [PyAvatar](https://github.com/willtheorangeguy/PyAvatar) - Easily display all of your creative avatars to keep them consistent across websites.
+- [Running Calculator](https://github.com/willtheorangeguy/Running-Calculator) - A running speed calculator for any unit of distance.
+- [PyWorkout](https://github.com/willtheorangeguy/PyWorkout) - A minimal CLI to keep you inspired during your workout! Easily used and customized, with support for multiple workout plans, different muscle groups and video workouts.
+- [PyAvatar](https://github.com/willtheorangeguy/PyAvatar) - Easily display all of your creative avatars to keep them consistent across websites.
 
 ## License
 
