@@ -10,13 +10,13 @@ This project is designed to have a personalized timeline, with variables already
 
 1. Open the `index.html` file with a text editor.
 2. Navigate to _Line 16, Column 51_:
-    * Where it says `%insert_time_here%`, replace the placeholder with the time you expect your website to be done.
-    * I suggest an approximate date like "the end of the year" or "in the spring".
+   - Where it says `%insert_time_here%`, replace the placeholder with the time you expect your website to be done.
+   - I suggest an approximate date like "the end of the year" or "in the spring".
 3. Navigate to _Line 16, Column 135_:
-    * Where it says `%link_to_GitHub_profile_here%`, replace the placeholder with a link to your GitHub page.
+   - Where it says `%link_to_GitHub_profile_here%`, replace the placeholder with a link to your GitHub page.
 4. Navigate to _Line 16, Column 230_:
-    * Where is says `%your_email%`, replace the placeholder with your email address.
-    * **Make sure to leave the `mailto:` in front of the address, so it opens in the visitor's email client.**
+   - Where is says `%your_email%`, replace the placeholder with your email address.
+   - **Make sure to leave the `mailto:` in front of the address, so it opens in the visitor's email client.**
 5. Save the file and upload changes to your web server.
 
 ## Change Font Colors
@@ -25,11 +25,11 @@ Changing the font colors requires a quick switch of the color values.
 
 1. Open the `index.html` file with a text editor.
 2. Navigate to _Line 13_:
-    * Change the `color:` CSS property from the default `rgb(255, 55, 0)` value to whatever suits your project.
-    * This will be the color for the main heading text.
+   - Change the `color:` CSS property from the default `rgb(255, 55, 0)` value to whatever suits your project.
+   - This will be the color for the main heading text.
 3. Navigate to _Line 15_:
-    * Change the `color:` CSS property from the default `rgb(255, 55, 0)` value to whatever suits your project.
-    * This will be the color for hyperlinks.
+   - Change the `color:` CSS property from the default `rgb(255, 55, 0)` value to whatever suits your project.
+   - This will be the color for hyperlinks.
 4. Save the file and upload changes to your web server.
 
 ## Change the Image
@@ -40,7 +40,7 @@ Changing the image requires that you copy and paste a new image link, or change 
 2. Copy the direct link to the image file.
 3. Open the `index.html` file with a text editor.
 4. Navigate to _Line 20_:
-    * Change the link between the `src="..."` element to the link of the new image.
-    * Change the copyright information for the image between the `title="..."` element.
-    * Change the alternate, accessibility text for the image between the `alt="..."` element.
+   - Change the link between the `src="..."` element to the link of the new image.
+   - Change the copyright information for the image between the `title="..."` element.
+   - Change the alternate, accessibility text for the image between the `alt="..."` element.
 5. Save the file and upload changes to your web server.
