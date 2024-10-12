@@ -1,0 +1,45 @@
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+.theme-button{
+    margin-top : 20px;
+    margin-left: 20px;
+}
+.theme-icon{
+    height: 50px;
+    width: 50px;
+}
+.theme-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.theme-toggle i {
+    color: #1b1a1a; 
+}
+
+body.dark-mode .theme-toggle i {
+    color: white;
+}
+
+body.light-mode {
+    background-color: #f4f4f4; 
+    color: #333; 
+}
+
+body.dark-mode {
+    background-color: #000; 
+    color: white; 
+}
+body.light-mode h3 {
+    color: #333; 
+}
+
+body.dark-mode h3 {
+    color: white; 
+}
