@@ -1,6 +1,5 @@
 // Get references to the theme toggle button and the body element
 const themeToggle = document.getElementById('theme-toggle');
-const body = document.body;
 
 // Function to apply dark mode styles
 function darkMode() {
@@ -14,7 +13,7 @@ function lightMode() {
     document.body.classList.remove("dark-mode"); // Remove dark mode class
 }
 // Event listener for when the DOM content is fully loaded
-window.addEventListener("DOMContentLoaded", (event) => {
+window.addEventListener("DOMContentLoaded", () => {
     // Check local storage for the saved theme preference
     if (localStorage.getItem("theme") === "dark") {
         darkMode(); // Apply dark mode if saved preference is dark
