@@ -91,8 +91,8 @@ However, **if you want to edit the page and make it your own**, follow the steps
 
 1. Copy the following files into the root of your web server:
 
-  - `index.html`
-  - `snoopy.png`
+- `index.html`
+- `snoopy.png`
 
 2. Edit the `index.html` file using a [text editor](https://code.visualstudio.com/) in the following three places:
 
