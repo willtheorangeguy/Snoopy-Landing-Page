@@ -1,5 +1,12 @@
 # Changelog
 
+## [v2.0.0](https://github.com/willtheorangeguy/Snoopy-Landing-Page/releases/tag/v2.0.0)
+
+### Added
+
+- Dark mode
+- New transparent Snoopy image
+
 ## [v1.4.0](https://github.com/willtheorangeguy/Snoopy-Landing-Page/releases/tag/v1.4.0)
 
 ### Added
