@@ -10,14 +10,52 @@
     <title>:( Under Construction ):</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <script src="script.js"></script>
   </head>
+
+  <!--Style Characteristics-->
   <style>
+    body {
+    transition:
+      background-color 0.3s ease,
+      color 0.3s ease;
+    } 
+    .theme-button {
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+    .theme-icon {
+      height: 50px;
+      width: 50px;
+    }
+    .theme-toggle {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 1.5rem;
+      padding: 10px;
+      height: 50px;
+      width: 50px;
+    }
+    .theme-toggle i {
+      color: #1b1a1a;
+    }
+    body.dark-mode .theme-toggle i {
+      color: white;
+    }
+    body.light-mode {
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    body.dark-mode {
+      background-color: #000;
+      color: white;
+    }
+    body.light-mode h3 {
+      color: #333;
+    }
+    body.dark-mode h3 {
+      color: white;
+    }
     h1 {
       text-align: center;
       color: rgb(255, 55, 0);
@@ -42,6 +80,49 @@
       width: 30%;
     }
   </style>
+
+  <!--Make dark and light mode work-->
+  <script>
+    // Get references to the theme toggle button and the body element
+    const themeToggle = document.getElementById("theme-toggle");
+
+    // Function to apply dark mode styles
+    function darkMode() {
+      document.body.classList.add("dark-mode"); // Add dark mode class
+      document.body.classList.remove("light-mode"); // Remove light mode class
+    }
+
+    // Function to apply light mode styles
+    function lightMode() {
+      document.body.classList.add("light-mode"); // Add light mode class
+      document.body.classList.remove("dark-mode"); // Remove dark mode class
+    }
+    // Event listener for when the DOM content is fully loaded
+    window.addEventListener("DOMContentLoaded", () => {
+      // Check local storage for the saved theme preference
+      if (localStorage.getItem("theme") === "dark") {
+        darkMode(); // Apply dark mode if saved preference is dark
+      } else {
+        lightMode(); // Otherwise, apply light mode
+      }
+    });
+
+    // Function to toggle between light and dark modes
+    function toggleTheme() {
+      // Check if dark mode is currently applied
+      if (document.body.classList.contains("dark-mode")) {
+        lightMode(); // Switch to light mode
+        localStorage.setItem("theme", "light"); // Save light mode preference
+      } else {
+        darkMode(); // Switch to dark mode
+        localStorage.setItem("theme", "dark"); // Save dark mode preference
+      }
+    }
+
+    // Add event listener to the theme toggle button to switch themes on click
+    themeToggle.addEventListener("click", toggleTheme);
+  </script>
+
   <body>
     <button
       id="theme-toggle"
@@ -54,7 +135,7 @@
     <h1>Sorry, this webpage is currently under construction!</h1>
     <img
       class="center"
-      src="snoopy-new.png"
+      src="snoopy.png"
       title="Image copyright Charles M. Schulz."
       alt="Snoopy as Joe Carpenter"
     />
