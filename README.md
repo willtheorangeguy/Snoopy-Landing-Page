@@ -95,7 +95,6 @@ However, **if you want to edit the page and make it your own**, follow the steps
 - `snoopy.png`
 
 2. Edit the `index.html` file using a [text editor](https://code.visualstudio.com/) in the following three places:
-
    - _Line 143, Column 45_: Where it says `%insert_time_here%`, replace the placeholder with the time you expect your website to be done. I suggest an approximate date like "the end of the year" or "in the spring".
    - _Line 145, Column 16_: Where it says `%link_to_GitHub_profile_here%`, replace the placeholder with a link to your GitHub page.
    - _Line 146, Column 43_: Where is says `%your_email%`, replace the placeholder with your email address. Make sure to leave the `mailto:` in front of the address, so it opens in the visitor's email client.
