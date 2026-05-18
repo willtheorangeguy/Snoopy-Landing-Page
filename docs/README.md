@@ -5,9 +5,6 @@ This folder includes all of the docs for the Snoopy Landing Page. More can be fo
 ```text
 ├── docs
 |   ├── images
-|   ├── legal
-|   |   ├── PRIVACY.md
-|   |   ├── TERMS.md
 |   ├── USAGE.md
 |   ├── CUSTOMIZATION.md
 └── README.md
