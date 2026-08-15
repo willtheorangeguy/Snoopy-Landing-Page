@@ -37,7 +37,7 @@ See [Getting started](getting-started.md) to deploy your own copy.
 
 [:material-sitemap: **Architecture**<br>How the single file is put together](architecture.md){ .wt-card }
 
-[:material-cog-sync: **CI/CD**<br>The workflows that publish it](ci-cd.md){ .wt-card }
+[:material-help-circle: **FAQ**<br>Common questions and troubleshooting](faq.md){ .wt-card }
 
 [:material-hand-heart: **Contributing**<br>How to help](https://github.com/willtheorangeguy/.github/blob/main/CONTRIBUTING.md){ .wt-card }
 

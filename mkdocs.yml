@@ -34,6 +34,7 @@ nav:
   - Configuration: configuration.md
   - Architecture: architecture.md
   - CI/CD: ci-cd.md
+  - FAQ: faq.md
 
   # Contributing, Code of Conduct, and Security live in willtheorangeguy/.github
   # and are being removed from this repo by the docs/standardize wave, so they
@@ -47,7 +48,6 @@ nav:
 
 # No api.md: a static landing page exposes no programmatic interface.
 # No testing.md: there is no test suite.
-# No faq.md: no recurring questions to draw from.
 
 exclude_docs: |
   docs.instructions.md
