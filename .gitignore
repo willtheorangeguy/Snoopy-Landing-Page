@@ -1,0 +1,17 @@
+# Documentation build artifacts.
+#
+# These are staged at build time from willtheorangeguy/mkdocs. A committed
+# copy would start overriding the shared version and the site would silently
+# drift from the rest.
+site/
+.mkdocs-shared/
+docs/stylesheets/
+docs/javascript/
+docs/images/favicon.svg
+
+# Theme overrides staged from the template repository. Staging is no-clobber,
+# so a committed copy would freeze this repo on an old shared partial. To
+# genuinely override one here, remove its line and commit the file.
+overrides/main.html
+overrides/partials/
+overrides/.icons/

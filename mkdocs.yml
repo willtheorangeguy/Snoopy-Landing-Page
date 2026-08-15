@@ -1,0 +1,53 @@
+# Documentation configuration for Snoopy-Landing-Page.
+#
+# Everything shared — theme, palette, markdown extensions, plugins,
+# validation — is inherited from willtheorangeguy/mkdocs. This file carries
+# only what makes this site this project.
+#
+# Never declare `plugins:` or `markdown_extensions:` here. MkDocs replaces
+# lists rather than merging them, so doing so silently drops the entire
+# shared configuration.
+
+INHERIT: .mkdocs-shared/shared/mkdocs.base.yml
+
+site_name: Snoopy Landing Page
+site_description: A simple under construction landing page that features Charles M. Schulz's iconic Snoopy Beagle.
+site_author: willtheorangeguy
+
+# The landing page itself owns the Pages root, so the docs are published one
+# level down. This must match `docs_subpath` in .github/workflows/docs.yml.
+site_url: https://williamvdg.me/Snoopy-Landing-Page/docs/
+
+repo_url: https://github.com/willtheorangeguy/Snoopy-Landing-Page
+repo_name: willtheorangeguy/Snoopy-Landing-Page
+edit_uri: edit/master/docs/
+
+copyright: Copyright &copy; willtheorangeguy
+
+theme:
+  logo: images/logo.png
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Installation: installation.md
+  - Configuration: configuration.md
+  - Architecture: architecture.md
+  - CI/CD: ci-cd.md
+
+  # Contributing, Code of Conduct, and Security live in willtheorangeguy/.github
+  # and are being removed from this repo by the docs/standardize wave, so they
+  # are linked rather than included. Changelog and License stay per-repo.
+  - About:
+      - Changelog: changelog.md
+      - License: license.md
+      - Contributing: https://github.com/willtheorangeguy/.github/blob/main/CONTRIBUTING.md
+      - Code of Conduct: https://github.com/willtheorangeguy/.github/blob/main/CODE_OF_CONDUCT.md
+      - Security: https://github.com/willtheorangeguy/.github/blob/main/SECURITY.md
+
+# No api.md: a static landing page exposes no programmatic interface.
+# No testing.md: there is no test suite.
+# No faq.md: no recurring questions to draw from.
+
+exclude_docs: |
+  docs.instructions.md

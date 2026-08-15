@@ -1,0 +1,44 @@
+# Landing page and documentation site for this repository.
+#
+# This workflow replaces the old pages.yml. It publishes BOTH: the landing
+# page at the Pages root, exactly as before, and the documentation site at
+# /docs/. All build logic lives in willtheorangeguy/mkdocs — do not add build
+# steps here.
+#
+# Only one workflow may deploy to Pages. pages.yml was deleted when this was
+# added; restoring it would make the two contend for the same deployment.
+
+name: Docs
+
+on:
+  push:
+    branches: [main, master]
+    # Deliberately broader than the template default: this workflow also
+    # publishes the landing page, so a change to index.html or its assets
+    # must trigger a redeploy.
+    paths:
+      - 'index.html'
+      - '*.png'
+      - 'docs/**'
+      - 'overrides/**'
+      - 'mkdocs.yml'
+      - '.github/workflows/docs.yml'
+      - 'CHANGELOG.md'
+      - 'LICENSE.md'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  docs:
+    uses: willtheorangeguy/mkdocs/.github/workflows/docs-build.yml@main
+    with:
+      # The landing page keeps the root; docs are nested beneath it.
+      docs_subpath: docs
