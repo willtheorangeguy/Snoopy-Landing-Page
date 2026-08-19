@@ -11,10 +11,12 @@
 
 <!-- Badges -->
 <div align="center">
-  <!-- Stability -->
+  <!-- Docker -->
   <img alt="Docker Build State" src="https://github.com/willtheorangeguy/Snoopy-Landing-Page/actions/workflows/docker-publish.yml/badge.svg">
-  <!-- Stability -->
-  <img alt="GitHub Pages State" src="https://github.com/willtheorangeguy/Snoopy-Landing-Page/actions/workflows/pages.yml/badge.svg">
+  <!-- Docs -->
+  <img alt="Docs State" src="https://github.com/willtheorangeguy/Snoopy-Landing-Page/actions/workflows/docs.yml/badge.svg">
+  <!-- Docs Lint -->
+  <img alt="Docs Lint State" src="https://github.com/willtheorangeguy/Snoopy-Landing-Page/actions/workflows/docs-lint.yml/badge.svg">
   <!-- Gitleaks -->
   <img alt="Gitleaks State" src="https://github.com/willtheorangeguy/Snoopy-Landing-Page/actions/workflows/gitleaks.yml/badge.svg">
   <!-- Version -->
@@ -23,98 +25,80 @@
   <img alt="GitHub Issues" src="https://img.shields.io/github/issues/willtheorangeguy/Snoopy-Landing-Page">
   <!-- Pull Requests -->
   <img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/willtheorangeguy/Snoopy-Landing-Page">
-  <!-- Discord -->
-  <img alt="Discord Server ID" src="https://img.shields.io/discord/960376610240987176">
-  <!-- Downloads -->
-  <img alt="Downloads" src="https://img.shields.io/github/downloads/willtheorangeguy/Snoopy-Landing-Page/total">
-  <!-- Language Count -->
-  <img alt="GitHub Languages" src="https://img.shields.io/github/languages/count/willtheorangeguy/Snoopy-Landing-Page">
+  <!-- License -->
+  <img alt="License" src="https://img.shields.io/github/license/willtheorangeguy/Snoopy-Landing-Page">
 </div>
 
 <!-- Navigation -->
 <p align="center">
   <a href="#key-features">Key Features</a> •
-  <a href="#download">Download</a> •
-  <a href="#how-to-use">How To Use</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#documentation">Documentation</a> •
   <a href="#support">Support</a> •
   <a href="#contributing">Contributing</a> •
-  <a href="#changelog">Changelog</a> •
-  <a href="#credits">Credits & Contributors</a>
+  <a href="#credits">Credits</a> •
+  <a href="#license">License</a>
 </p>
 
-<!-- Screenshot(s) -->
+<!-- Screenshot -->
 
 ![screenshot](https://raw.githubusercontent.com/willtheorangeguy/Snoopy-Landing-Page/master/docs/images/landing.png)
 
 ## Key Features
 
-- Display a colorful and informative welcome text.
-- Display a large, memorable Snoopy image.
-- Includes links to GitHub profile and email.
-- Includes a projected completion date.
-- Cross platform, browser based.
+- A colourful, friendly "under construction" message with a projected completion date.
+- A large, memorable Snoopy image as the centrepiece.
+- Links to a GitHub profile and an email address.
+- Three plain-text placeholders are the only things you need to edit — no build step, no framework, no dependencies.
+- One HTML file and one image: copy them to any web root and you are done.
+- Ships as a Docker image, so it can also be run as a container.
 
-## Download
+## Installation
 
-You can **[download](https://github.com/willtheorangeguy/Snoopy-Landing-Page/releases/latest) the source code** to modify the code and create your own landing page.
-
-You can also access the **production version the website**, available on all platforms, **[here](https://willtheorangeguy.github.io/Snoopy-Landing-Page/)**.
-
-## How To Use
-
-To clone and run this website, you'll need [Git](https://git-scm.com/downloads) installed on your computer. If you would rather not use Git, you can just download the code from GitHub above. From your command line:
+The page is a single static file. Clone it and open `index.html` in a browser:
 
 ```bash
-# Clone this repository
-$ git clone https://github.com/willtheorangeguy/Snoopy-Landing-Page.git
-
-# Go into the repository
-$ cd Snoopy-Landing-Page
-
-# Run the webpage
-$ index.html
+git clone https://github.com/willtheorangeguy/Snoopy-Landing-Page.git
+cd Snoopy-Landing-Page
 ```
 
-You can also pull the [Docker](https://www.docker.com/) image from GitHub Packages. From your command line:
+Or run it as a container:
 
 ```bash
-# Pull image
-$ docker pull ghcr.io/willtheorangeguy/snoopy-landing-page:master
-
-# Run container
-$ docker run -d -p 8000:80 ghcr.io/willtheorangeguy/snoopy-landing-page:master
-
-# Now, navigate to localhost in your browser to see the webpage
+docker run -d -p 8000:80 ghcr.io/willtheorangeguy/snoopy-landing-page:master
 ```
 
-However, **if you want to edit the page and make it your own**, follow the steps below:
+Then open `http://localhost:8000`. Every install path is in [`docs/installation.md`](docs/installation.md).
 
-1. Copy the following files into the root of your web server:
+## Usage
 
-- `index.html`
-- `snoopy.png`
+To make it your own, copy `index.html` and `snoopy.png` into the root of your web server, then replace three placeholders in `index.html`:
 
-2. Edit the `index.html` file using a [text editor](https://code.visualstudio.com/) in the following three places:
-   - _Line 143, Column 45_: Where it says `%insert_time_here%`, replace the placeholder with the time you expect your website to be done. I suggest an approximate date like "the end of the year" or "in the spring".
-   - _Line 145, Column 16_: Where it says `%link_to_GitHub_profile_here%`, replace the placeholder with a link to your GitHub page.
-   - _Line 146, Column 43_: Where is says `%your_email%`, replace the placeholder with your email address. Make sure to leave the `mailto:` in front of the address, so it opens in the visitor's email client.
+```bash
+grep -n "%insert_time_here%\|%link_to_GitHub_profile_here%\|%your_email%" index.html
+```
 
-3. Save the file and upload it to the root of your website server.
-4. You're all set!
+| Placeholder | Replace with |
+|---|---|
+| `%insert_time_here%` | When you expect to launch — an approximate date like "the end of the year" reads better than a precise one |
+| `%link_to_GitHub_profile_here%` | A link to your GitHub page |
+| `%your_email%` | Your email address, keeping the `mailto:` prefix so it opens in the visitor's mail client |
+
+Save, upload, done. [`docs/configuration.md`](docs/configuration.md) covers the placeholders in full, along with changing the colours, the image, and the copy.
+
+## Documentation
+
+Full documentation is published as a site at **[williamvdg.me/Snoopy-Landing-Page/docs](https://williamvdg.me/Snoopy-Landing-Page/docs/)**, and its source lives in [`docs/`](docs/index.md):
+[Getting Started](docs/getting-started.md) · [Installation](docs/installation.md) · [Configuration](docs/configuration.md) · [Architecture](docs/architecture.md) · [CI/CD](docs/ci-cd.md) · [FAQ](docs/faq.md)
 
 ## Support
 
-Further customization options for colors, images and text can be found in [`CUSTOMIZATION`](https://github.com/willtheorangeguy/Snoopy-Landing-Page/blob/master/docs/CUSTOMIZATION.md). More documentation is available in the **[Documentation](https://github.com/willtheorangeguy/Snoopy-Landing-Page/tree/main/docs)** and on the **[Wiki](https://github.com/willtheorangeguy/Snoopy-Landing-Page/wiki)**. If more support is required, please open a **[GitHub Discussion](https://github.com/willtheorangeguy/Snoopy-Landing-Page/discussions/new)** or join our **[Discord](https://discord.gg/TXR962YrGV)**.
+Open a [GitHub Discussion](https://github.com/willtheorangeguy/Snoopy-Landing-Page/discussions/new) or file an [issue](https://github.com/willtheorangeguy/Snoopy-Landing-Page/issues/new/choose).
 
 ## Contributing
 
-Please contribute using [GitHub Flow](https://guides.github.com/introduction/flow). Create a branch, add commits, and [open a pull request](https://github.com/willtheorangeguy/Snoopy-Landing-Page/compare).
-
-Please read [`CONTRIBUTING`](https://github.com/willtheorangeguy/.github/blob/main/CONTRIBUTING.md) for details on our [`CODE OF CONDUCT`](https://github.com/willtheorangeguy/.github/blob/main/CODE_OF_CONDUCT.md), and the process for submitting pull requests to us.
-
-## Changelog
-
-See the [`CHANGELOG`](CHANGELOG.md) file for details.
+Contributions welcome. See the org-wide [Contributing Guide](https://github.com/willtheorangeguy/.github/blob/main/CONTRIBUTING.md) and [Code of Conduct](https://github.com/willtheorangeguy/.github/blob/main/CODE_OF_CONDUCT.md).
 
 ## Credits
 
@@ -146,12 +130,8 @@ This software uses the following open source packages, projects, services or web
 
 - [@willtheorangeguy](https://github.com/willtheorangeguy) - Sponsor on [PayPal](https://paypal.me/wvdg44?country.x=CA&locale.x=en_US)
 
-## You may also like...
-
-- [Running Calculator](https://github.com/willtheorangeguy/Running-Calculator) - A running speed calculator for any unit of distance.
-- [PyWorkout](https://github.com/willtheorangeguy/PyWorkout) - A minimal CLI to keep you inspired during your workout! Easily used and customized, with support for multiple workout plans, different muscle groups and video workouts.
-- [PyAvatar](https://github.com/willtheorangeguy/PyAvatar) - Easily display all of your creative avatars to keep them consistent across websites.
-
 ## License
 
 This project is licensed under the [MIT License](https://mit-license.org/) - see the [`LICENSE`](LICENSE.md) file for details.
+
+**Snoopy, Peanuts, and the associated characters are copyright and trademarks of Peanuts Worldwide LLC.** The image is used here in tribute to Charles M. Schulz; this project is not affiliated with, endorsed by, or sponsored by Peanuts Worldwide LLC or the Charles M. Schulz Museum. Replace `snoopy.png` with your own artwork before using this page commercially.
