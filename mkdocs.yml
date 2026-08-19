@@ -51,3 +51,4 @@ nav:
 
 exclude_docs: |
   docs.instructions.md
+  internal/
