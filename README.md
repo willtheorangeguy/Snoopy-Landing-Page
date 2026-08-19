@@ -79,11 +79,11 @@ To make it your own, copy `index.html` and `snoopy.png` into the root of your we
 grep -n "%insert_time_here%\|%link_to_GitHub_profile_here%\|%your_email%" index.html
 ```
 
-| Placeholder | Replace with |
-|---|---|
-| `%insert_time_here%` | When you expect to launch — an approximate date like "the end of the year" reads better than a precise one |
-| `%link_to_GitHub_profile_here%` | A link to your GitHub page |
-| `%your_email%` | Your email address, keeping the `mailto:` prefix so it opens in the visitor's mail client |
+| Placeholder                     | Replace with                                                                                               |
+| ------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| `%insert_time_here%`            | When you expect to launch — an approximate date like "the end of the year" reads better than a precise one |
+| `%link_to_GitHub_profile_here%` | A link to your GitHub page                                                                                 |
+| `%your_email%`                  | Your email address, keeping the `mailto:` prefix so it opens in the visitor's mail client                  |
 
 Save, upload, done. [`docs/configuration.md`](docs/configuration.md) covers the placeholders in full, along with changing the colours, the image, and the copy.
 

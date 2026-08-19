@@ -7,7 +7,6 @@ licensing decision rather than a documentation one.
 Ordered by severity. See [`docs/roadmap.md`](../roadmap.md) for the narrative version,
 which also covers deliberate non-goals.
 
-
 **7 open:** 2 medium, 5 low.
 
 ## 1. The published site shows the unreplaced placeholders to every visitor
@@ -70,7 +69,7 @@ which also covers deliberate non-goals.
 **Severity:** Low  
 **Where:** `README.md` -> the credits table
 
-**What:** The fourth column's image carries `alt="Nginx"` while its source is `schulzmuseum.org/.../SchulzMuseum.jpg`, and the entry is titled 'Peanut Comic Strips'. The strip is *Peanuts*; 'Peanut' is not its name. Left as-is in this pass -- the house rule for this sweep is to carry the credits table through verbatim.
+**What:** The fourth column's image carries `alt="Nginx"` while its source is `schulzmuseum.org/.../SchulzMuseum.jpg`, and the entry is titled 'Peanut Comic Strips'. The strip is _Peanuts_; 'Peanut' is not its name. Left as-is in this pass -- the house rule for this sweep is to carry the credits table through verbatim.
 
 **Why it matters:** Alt text is what a screen reader announces, so a blind visitor to this README is told the Schulz Museum logo is Nginx -- a wrong answer rather than a missing one, and Nginx is not credited anywhere here at all, which suggests the row was copied from another repository's table. The 'Peanut' spelling is the sort of thing that reads as carelessness about the work being credited, on a page whose whole subject is someone else's character.
 
@@ -86,7 +85,6 @@ which also covers deliberate non-goals.
 **Why it matters:** A file at the repository root implies content, and this one has none beyond two links, one of which is dead. Its practical effect is to add a row to the root listing that a reader will open once and learn nothing from. There is no planning material anywhere else in the repository, so nothing is lost by removing it -- but nothing is gained by keeping it either, which is the definition of a file worth deleting.
 
 **Suggested fix:** Delete it, or replace it with a real roadmap. If the intent was somewhere to keep future ideas, GitHub Issues already serves that and is where the file points anyway.
-
 
 ---
 
